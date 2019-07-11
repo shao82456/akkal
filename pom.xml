@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>shao</groupId>
+    <artifactId>akkal</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+<dependencies>
+    <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-http-core_2.11</artifactId>
+        <version>2.4.7</version>
+    </dependency>
+    <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-http-experimental_2.11</artifactId>
+        <version>2.4.7</version>
+    </dependency>
+    <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-http-spray-json-experimental_2.11</artifactId>
+        <version>2.4.7</version>
+    </dependency>
+    <dependency>
+        <groupId>com.typesafe.akka</groupId>
+        <artifactId>akka-testkit_2.11</artifactId>
+        <version>2.4.7</version>
+<!--        <scope>test</scope>-->
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.scalatest/scalatest -->
+    <dependency>
+        <groupId>org.scalatest</groupId>
+        <artifactId>scalatest_2.11</artifactId>
+        <version>3.0.5</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!--数据库-->
+
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+        <version>5.1.39</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.typesafe.slick</groupId>
+        <artifactId>slick_2.11</artifactId>
+        <version>3.2.0</version>
+    </dependency>
+
+    <!-- 使用 HikariCP 连接池-->
+    <dependency>
+        <groupId>com.typesafe.slick</groupId>
+        <artifactId>slick-hikaricp_2.11</artifactId>
+        <version>3.2.0</version>
+    </dependency>
+</dependencies>
+
+</project>
